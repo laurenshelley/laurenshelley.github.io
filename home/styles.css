@@ -6,6 +6,9 @@ body {
 
 main {
     background-color: whitesmoke;
+    /* height: auto; */
+    
+    padding: 1em;
 }
 
 nav ul {
