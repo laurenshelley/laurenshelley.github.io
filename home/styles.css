@@ -7,3 +7,39 @@ body {
 main {
     background-color: whitesmoke;
 }
+
+nav ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(6em, 1fr));
+    /* margin: 0; */
+    /* font-size: .8em; */
+    /* padding: 1.25em; */
+    /* overflow: hidden; */
+    /* color: black; */
+    
+  }
+  ul {
+    padding: 0;
+  }
+   a {
+    display: block;
+     text-align: center;
+     text-decoration: none;
+     /* font-size: 1.6em; */
+     /* font-family: "Courier New", Courier, monospace; */
+     list-style: none;
+     /* background-color: #E5E6E4; */
+     /* margin: auto; */
+     padding-top: 2em;
+     padding-bottom: 2em;
+     padding-left: .5em;
+     padding-right: .5em;
+     color: black;
+    
+   }
+
+   a:hover {
+    color: black;
+    background-color: whitesmoke;
+   }
